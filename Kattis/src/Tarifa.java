@@ -10,6 +10,7 @@ import java.util.Scanner;
 public class Tarifa {
 
     public static void main(String[] args) throws IOException {
+        
         Scanner sc = new Scanner(System.in);
         int min = sc.nextInt();
         int mon = sc.nextInt();

@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class SolvingforCarrots {
 
     public static void main(String[] args) {
+        
         Scanner sc = new Scanner(System.in);
         @SuppressWarnings("unused")
         int x = sc.nextInt();

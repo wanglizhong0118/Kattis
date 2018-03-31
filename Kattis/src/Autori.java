@@ -13,6 +13,7 @@ import java.io.OutputStreamWriter;
 public class Autori {
 
     public static void main(String[] args) throws IOException {
+        
         BufferedReader r = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter w = new BufferedWriter(new OutputStreamWriter(System.out));
 

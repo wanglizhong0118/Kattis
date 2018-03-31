@@ -6,6 +6,12 @@ import java.io.OutputStreamWriter;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * https://open.kattis.com/problems/icpcawards
+ * 
+ * @author allwi
+ *
+ */
 public class ICPCAwards {
 
     public static void main(String[] args) throws NumberFormatException, IOException {

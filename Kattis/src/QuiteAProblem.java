@@ -12,6 +12,7 @@ import java.io.PrintWriter;
 public class QuiteAProblem {
 
     public static void main(String[] args) throws NumberFormatException, IOException {
+        
         BufferedReader r = new BufferedReader(new InputStreamReader(System.in));
         PrintWriter w = new PrintWriter(System.out);
         while (r.ready()) {

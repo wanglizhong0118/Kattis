@@ -5,29 +5,32 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
 /**
- * https://open.kattis.com/problems/quadrant
+ * https://open.kattis.com/problems/ostgotska
  * 
  * @author allwi
  *
  */
-public class QuadrantSelection {
+public class Ostgotska {
 
     public static void main(String[] args) throws IOException {
-        
+
         BufferedReader r = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter w = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        int x = Integer.parseInt(r.readLine());
-        int y = Integer.parseInt(r.readLine());
-
-        if (x > 0 && y > 0) {
-            w.write("1");
-        } else if (x < 0 && y > 0) {
-            w.write("2");
-        } else if (x < 0 && y < 0) {
-            w.write("3");
+        String line = r.readLine();
+        String[] sts = line.split(" ");
+        int len = sts.length;
+        int count = 0;
+        for (String st : sts) {
+            if (st.contains("ae")) {
+                count++;
+            }
+        }
+        double p = (double) count / len;
+        if (p >= 0.4) {
+            w.write("dae ae ju traeligt va");
         } else {
-            w.write("4");
+            w.write("haer talar vi rikssvenska");
         }
         w.flush();
         w.close();

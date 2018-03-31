@@ -12,6 +12,7 @@ import java.util.Scanner;
 public class Sibice {
 
     public static void main(String[] args) throws IOException {
+        
         Scanner sc = new Scanner(System.in);
         BufferedWriter w = new BufferedWriter(new OutputStreamWriter(System.out));
         int N = sc.nextInt();

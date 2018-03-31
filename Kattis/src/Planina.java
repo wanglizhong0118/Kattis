@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class Planina {
 
     public static void main(String[] args) {
+        
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
         int p = (int) Math.pow(1 + Math.pow(2, t), 2);

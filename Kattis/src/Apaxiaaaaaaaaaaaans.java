@@ -10,6 +10,7 @@ import java.util.Scanner;
 public class Apaxiaaaaaaaaaaaans {
 
     public static void main(String[] args) throws IOException {
+        
         Scanner sc = new Scanner(System.in);
         String longName = sc.nextLine();
 

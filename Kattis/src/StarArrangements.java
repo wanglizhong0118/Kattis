@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class StarArrangements {
 
     public static void main(String[] args) {
+        
         Scanner sc = new Scanner(System.in);
         int stars = sc.nextInt();
         sc.close();

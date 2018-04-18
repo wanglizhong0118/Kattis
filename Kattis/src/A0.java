@@ -12,4 +12,5 @@ public class A0 {
         final BufferedWriter w = new BufferedWriter(new OutputStreamWriter(System.out));
 
     }
+
 }

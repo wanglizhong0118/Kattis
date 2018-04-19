@@ -10,6 +10,7 @@ public class A0 {
 
         final BufferedReader r = new BufferedReader(new InputStreamReader(System.in));
         final BufferedWriter w = new BufferedWriter(new OutputStreamWriter(System.out));
+        System.out.println(Math.pow(125, 1.0 / 3));
 
     }
 

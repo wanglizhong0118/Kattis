@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * https://open.kattis.com/problems/redrover
+ * https://open.kattis.com/problems/babelfish
  * 
  * @author allwi
  *
